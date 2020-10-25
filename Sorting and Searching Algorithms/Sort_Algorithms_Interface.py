@@ -26,7 +26,7 @@ if __name__ == '__main__':
     # Interface 實體化    
     sort_interface = Sort_Interface()  
     
-    sort_interface.set_sort(bubble_sort)
+    sort_interface.set_sort(insertion_sort)
     sort_interface.sort()
     
     print("===========================================")
