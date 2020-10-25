@@ -15,7 +15,6 @@ class Insertion_Sort(Strategy_Sort):
                 self.list[j + 1] = self.list[j]
                 j = j - 1
             
-            # Place key at after the element just smaller than it.
             self.list[j + 1] = key
             print(self.list)
 
